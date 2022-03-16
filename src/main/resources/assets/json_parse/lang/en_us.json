@@ -1,0 +1,8 @@
+{
+  "block.json_parse.cutting_board": "Cutting Board",
+
+  "itemGroup.json_parse.main": "Thar be dragons",
+
+  "json_parse.block.cutting_board.invalid_item": "This doesn't seem cuttable...",
+  "json_parse.block.cutting_board.invalid_tool": "Maybe with a different tool..."
+}

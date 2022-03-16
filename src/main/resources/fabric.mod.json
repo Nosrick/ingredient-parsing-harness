@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "json_parse",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "JSON Parsing Bug",
+  "description": "Demonstrates failure to load JSON from custom recipes on first world load.",
   "authors": [
     "Me!"
   ],
@@ -14,12 +14,15 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/json_parse/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.fabricmc.example.ExampleMod"
+    ],
+    "client": [
+      "net.fabricmc.example.ExampleModClient"
     ]
   },
   "mixins": [

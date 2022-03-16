@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "json_parse:block/cutting_board"
+    },
+    "facing=south": {
+      "model": "json_parse:block/cutting_board",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "json_parse:block/cutting_board",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "json_parse:block/cutting_board",
+      "y": 90
+    }
+  }
+}
